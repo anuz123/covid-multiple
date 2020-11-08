@@ -105,4 +105,4 @@ def predict():
             return jsonify(id=id_,prediction_result='Please Import Only Lung Image',process_status=0,prediction_type=1,prediction_status='',lungs=0)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(debug=True)
